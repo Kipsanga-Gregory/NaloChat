@@ -1,0 +1,25 @@
+{
+  "name": "chatcord",
+  "version": "1.0.0",
+  "description": "A real time Chat Application With Socket.io",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kipsanga-Gregory/NaloChat.git"
+  },
+  "author": "Greg Limo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kipsanga-Gregory/NaloChat/issues"
+  },
+  "homepage": "https://github.com/Kipsanga-Gregory/NaloChat#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.25.3",
+    "socket.io": "^2.3.0"
+  }
+}
